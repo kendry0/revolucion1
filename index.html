@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Periódico de la Revolución Inglesa</title>
+
+    <!-- Fuentes Medievales -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Garamond&display=swap">
+    <style>
+        /* General */
+        body {
+            font-family: 'Garamond', serif;
+            background-color: #f4e3d7;
+            color: #2d2d2d;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-size: cover;
+        }
+
+        /* Encabezado */
+        header {
+            text-align: center;
+            padding: 50px;
+            background: #3b1f06;
+            color: #f7e7d4;
+            border-bottom: 5px solid #593c22;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-family: 'Uncial Antiqua', serif;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        header p {
+            font-size: 1.8rem;
+            font-family: 'Garamond', serif;
+        }
+
+        /* Barra de navegación */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            background-color: #593c22;
+            padding: 15px;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f7e7d4;
+            font-size: 1.3rem;
+            font-family: 'Uncial Antiqua', serif;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+            border-bottom: 2px solid #ffd700;
+        }
+
+        /* Sección de noticias principales */
+        section {
+            padding: 30px;
+            margin: 30px auto;
+            background-color: rgba(255, 250, 240, 0.9);
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px #5a2e1b;
+            max-width: 1200px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Uncial Antiqua', serif;
+            color: #593c22;
+            font-size: 2.5rem;
+        }
+
+        /* Diseño intercalado de artículos */
+        article {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 25px;
+            border: 3px solid #8b4513;
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article img {
+            width: 50%;
+            height: auto;
+            border: 3px solid #8b4513;
+            border-radius: 12px;
+        }
+
+        /* Alternar entre izquierda y derecha */
+        article:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        article div {
+            width: 50%;
+            padding: 20px;
+        }
+
+        article h3 {
+            font-size: 2rem;
+            font-family: 'Uncial Antiqua', serif;
+            color: #8b4513;
+        }
+
+        article p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            background-color: #3b1f06;
+            padding: 20px;
+            color: #f7e7d4;
+            font-family: 'Garamond', serif;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        footer ul li a {
+            color: #f7e7d4;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ffd700;
+        }
+    </style>
+
+  
+    </script>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>El Periódico de la Revolución Inglesa</h1>
+        <p>1642-1688: De la guerra civil a la Revolución Gloriosa</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="antecedentes.html">Antecedentes</a></li>
+            <li><a href="guerra.html">Guerra Civil</a></li>
+            <li><a href="consecuencia.html">Consecuencias</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de noticias principales -->
+    <section id="noticias-principales">
+        <h2>Noticias Destacadas de la Revolución Inglesa</h2>
+
+        <article>
+            <img src="Recursos/conflicto entre parlamelo.png" alt="Carlos I">
+            <div>
+                <h3>Conflictos entre el Parlamento y Carlos I (1629-1642)</h3>
+                <p>Durante este período, Carlos I gobernó sin el Parlamento, imponiendo impuestos sin su aprobación. Esta decisión causó tensiones y descontento, lo que resultó en una creciente lucha por el poder entre el rey y el Parlamento, sentando las bases para la guerra civil. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/revolucion-inglesa.jpg.webp" alt="Batalla de Naseby">
+            <div>
+                <h3>El estallido de la Guerra Civil (1642)</h3>
+                <p>El conflicto armado entre los seguidores de Carlos I (los realistas) y los partidarios del Parlamento (los parlamentaristas) estalló en 1642. La guerra civil dividió al país, afectando a todas las clases sociales y marcando el inicio de una lucha por el control de Inglaterra. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/ejecucion.jfif" alt="Ejecución de Carlos I">
+            <div>
+                <h3>La ejecución de Carlos I (1649)</h3>
+                <p>Tras años de guerra y conflictos, Carlos I fue juzgado y condenado a muerte por traición. Su ejecución fue un hecho sin precedentes, poniendo fin al reinado de los Estuardo y marcando un cambio radical en la estructura política de Inglaterra. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/El establecimiento de la Commonwealth (1649-1653).jpg" alt="Oliver Cromwell">
+            <div>
+                <h3>El establecimiento de la Commonwealth (1649-1653)</h3>
+                <p>Con la monarquía abolida, se instauró la Commonwealth, una república liderada por Oliver Cromwell. Esta nueva forma de gobierno experimentó una serie de cambios radicales que transformaron la política y la sociedad inglesa, aunque no sin controversias. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/Las demandas de los Niveladores (1647).jpg" alt="Niveladores">
+            <div>
+                <h3>Las demandas de los Niveladores (1647)</h3>
+                <p>Los Niveladores fueron un movimiento político radical que surgió durante la guerra civil, exigiendo igualdad política y económica. Sus ideas fueron vistas como peligrosas por los gobernantes, pero influyeron en las futuras luchas por los derechos civiles. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/La dictadura de Cromwell y los conflictos sociales (1653-1658).jpeg" alt="Cromwell">
+            <div>
+                <h3>La dictadura de Cromwell y los conflictos sociales (1653-1658)</h3>
+                <p>Durante su mandato como "Lord Protector", Oliver Cromwell ejerció una dictadura militar. A pesar de las promesas de reformas, su gobierno enfrentó revueltas sociales, consolidando el control sobre una nación dividida. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/Revueltas-campesinos.jpg" alt="Revueltas campesinas">
+            <div>
+                <h3>Las Revueltas campesinas (1649-1650)</h3>
+                <p>Los campesinos, descontentos por las duras condiciones de vida y la falta de acceso a tierras, protagonizaron revueltas que fueron duramente reprimidas. Estas rebeliones reflejaron las profundas divisiones sociales en la Inglaterra de la época. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Recursos/rey gay.webp" alt="Carlos II">
+            <div>
+                <h3>La Restauración de Carlos II (1660)</h3>
+                <p>En 1660, tras la muerte de Cromwell y el fracaso de la Commonwealth, la monarquía fue restaurada bajo Carlos II. Este regreso marcó el fin de los experimentos republicanos y una vuelta a las formas tradicionales de gobierno, aunque con nuevas limitaciones impuestas al poder real. <a href="#">Leer más...</a></p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos de uso</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <p>&copy; 2024 El Periódico de la Revolución Inglesa</p>
+    </footer>
+</body>
+</html>
